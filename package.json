@@ -1,0 +1,14 @@
+{
+  "name": "procrastinators.xyz",
+  "version": "1.4.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "echo 'procrastinators.xyz' > public/CNAME && gh-pages --dist public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
