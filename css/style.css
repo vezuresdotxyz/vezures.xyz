@@ -1,0 +1,110 @@
+/*
+Template Name: cm'soon
+Theme URL: http://www.egotype.com/cm-soon/
+Description: Landing Page
+Author: Egotype
+Author URL: http://www.egotype.com
+Version: 1.0
+Tags: Landing Page, HTML5, CSS3, Bootstrap, Jquery, Coming Soon Landing page
+*/
+
+/* ___________________________________________
+
+                   CONTENT
+   ___________________________________________ */
+
+/*   01. General Styles                        */
+/*   02. Typography                            */
+/*   03. Backgrounds                           */
+/*   04. Buttons, Links                        */
+/*   05. Forms                                 */
+/*   06. Spacing, Alignment, Helperclasses     */
+/*   07. Navigation                            */
+/*   08. Backgrounds                           */
+/*   09. Preloader                             */
+/*   10. Modal                                 */
+/*   11. Count Down                            */
+/*   12. Gallery                               */
+/*   13. Misc                                  */
+
+/* _____________________________________
+
+   01. General Styles
+   _____________________________________ */
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #fff;
+  background: #000;
+}
+
+html,
+body,
+#page {
+  height: 100%;
+  width: 100%;
+}
+
+a,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-ExtraLight.woff") format("woff"),
+    url("../fonts/montserrat/Montserrat-ExtraLight.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Medium.woff") format("woff"),
+    url("../fonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/montserrat/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h2,
+.h2 {
+  font-weight: 400;
+  line-height: 1.5;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.15em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+p,
+.lead {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
