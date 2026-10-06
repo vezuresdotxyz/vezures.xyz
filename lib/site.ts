@@ -21,5 +21,12 @@ export const site = {
       description: "A multi-chain lending and borrowing protocol.",
       tags: ["Lending", "DeFi"],
     },
+    {
+      name: "Chottu",
+      href: "https://chottu.tinyhumans.ai/",
+      domain: "chottu.tinyhumans.ai",
+      description: "A helper that lives in your chats and gets things done for you.",
+      tags: ["AI", "Assistant"],
+    },
   ],
 } as const;
