@@ -22,6 +22,13 @@ export const site = {
       tags: ["Lending", "DeFi"],
     },
     {
+      name: "TinyHumans",
+      href: "https://tinyhumans.ai/",
+      domain: "tinyhumans.ai",
+      description: "Open-source AI agents that work for you.",
+      tags: ["AI", "Open Source"],
+    },
+    {
       name: "Chottu",
       href: "https://chottu.tinyhumans.ai/",
       domain: "chottu.tinyhumans.ai",
