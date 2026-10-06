@@ -28,8 +28,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`dark ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <div aria-hidden className="aurora" />
+        <div aria-hidden className="grid-bg" />
+        <SiteHeader />
         <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col px-6">
-          <SiteHeader />
           <main className="flex-1 py-12 sm:py-16">{children}</main>
           <SiteFooter />
         </div>

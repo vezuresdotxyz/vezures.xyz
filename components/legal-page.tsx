@@ -10,7 +10,7 @@ export function LegalPage({
   children: React.ReactNode;
 }) {
   return (
-    <article className="flex flex-col gap-6">
+    <article className="reveal flex flex-col gap-6">
       <header className="flex flex-col gap-2">
         <h1 className="text-3xl font-semibold tracking-tight">{title}</h1>
         <p className="text-sm text-muted-foreground">Last updated {updated}</p>

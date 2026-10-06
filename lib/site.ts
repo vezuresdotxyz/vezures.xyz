@@ -9,6 +9,7 @@ export const site = {
   projects: [
     {
       name: "MAHA",
+      accent: "oklch(0.8 0.16 75)",
       href: "https://maha.xyz/",
       domain: "maha.xyz",
       description: "A decentralized stablecoin protocol.",
@@ -16,6 +17,7 @@ export const site = {
     },
     {
       name: "ZeroLend",
+      accent: "oklch(0.78 0.16 165)",
       href: "https://zerolend.xyz/",
       domain: "zerolend.xyz",
       description: "A multi-chain lending and borrowing protocol.",
@@ -23,6 +25,7 @@ export const site = {
     },
     {
       name: "TinyHumans",
+      accent: "oklch(0.72 0.19 285)",
       href: "https://tinyhumans.ai/",
       domain: "tinyhumans.ai",
       description: "Open-source AI agents that work for you.",
@@ -30,6 +33,7 @@ export const site = {
     },
     {
       name: "Chottu",
+      accent: "oklch(0.74 0.18 350)",
       href: "https://chottu.tinyhumans.ai/",
       domain: "chottu.tinyhumans.ai",
       description: "A helper that lives in your chats and gets things done for you.",
